@@ -44,7 +44,10 @@ class ServerSolution implements AccountServer {
 			}
 		}
 	}
-
+	
+	/**
+	 * Adding comment to complete task 2 part 5.
+	 */
 	public boolean newAccount(String type, String name, float balance) 
 		throws IllegalArgumentException {
 		
